@@ -1,0 +1,6 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"701024932217356365","Adhithya#1999","10-Jul-22 03:05 PM","","",""
+"701024932217356365","Adhithya#1999","10-Jul-22 03:05 PM","**Why flip flop uses edge triggering why not level triggering?**
+
+This is done to increase the noise immunity of the flip flop since the it is vulnerable to changes by the transients/noise. Keep this transition period narrow, and you have increased noise immunity.","",""
+"701024932217356365","Adhithya#1999","10-Jul-22 03:05 PM","","https://cdn.discordapp.com/attachments/995621744922607707/995624391574552576/unknown.png",""
