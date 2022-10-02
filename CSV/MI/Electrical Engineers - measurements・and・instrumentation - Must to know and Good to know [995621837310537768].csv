@@ -1,9 +1,0 @@
-AuthorID,Author,Date,Content,Attachments,Reactions
-"701024932217356365","Adhithya#1999","10-Jul-22 03:51 PM","","",""
-"701024932217356365","Adhithya#1999","14-Sep-22 08:47 PM","**How does Potential transformer differ from a power transformer?**
-
-A Power Transformer is designed to handle power. In huge quantities sometimes. It needs cooling systems, a substantial core, thick windings. It may have taps to adjust the voltage. It will be slightly overwound to provide an approximation to load regulation. It will typically be designed for 15% overvoltage.
-
-A Potential Transformer is designed to measure voltage safely. It will have collosal insulation resistance between primary and secondary, a tiny power rating (in Watts, not MegaVA) and a very precise turns ratio to permit accurate metering . It will probably tolerate 50% or 100% overvolts.
-
-All that said, the transformer action (mutual inductances on some sort of core) works in exactly the same way.","",""
