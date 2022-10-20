@@ -14,12 +14,14 @@ body{
 h1{
     /* Heading CSS */
     font-family: 'Roboto Slab', serif;
+    background: -webkit-linear-gradient(#dab442, #c1abff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: #f7b801;
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    text-shadow: 3px 3px 3px #0e0e18;
 }
 
 h2{
@@ -50,6 +52,7 @@ h4{
     font-size: 15px;
     text-align: center;
     margin-top: 15px;
+    padding: 30px;
     margin-bottom: 10px;
 }
 
@@ -58,7 +61,7 @@ h5{
     /* Heading CSS */
     font-family: 'Nunito', sans-serif;
     color: #f0f0f0;
-    font-size: 20px;
+    font-size: 13px;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -99,8 +102,8 @@ p{
 }
 
 .Bbuttons:hover{
-    background-image: linear-gradient(to right, #2b2564 0%, #3d348b 100%);
-    color: #fdfdfd;
+    background-image: linear-gradient(to right, #dee06d 0%, #56f1e5 100%);
+    color: rgb(126, 126, 126);
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     border-radius: 50px;
     border-color: #ffd70c;
@@ -144,10 +147,15 @@ li,a {
     transition: all 0.3s ease 0s;
 }
 .navLinks li a:hover{
-    color: #ffd70c;
+    /* color: #ffd70c; */
+    background: -webkit-linear-gradient(#fbff05, #3effef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 .navLinks li:hover{
     border: 3px  #ffd70c;
+    /* color: -webkit-linear-gradient(#fbff05, #3effef); */
     border-style: solid;
 }
 
