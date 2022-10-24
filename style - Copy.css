@@ -1,7 +1,7 @@
 .relative {
     padding: 10px;
     position: relative;
-    background-color: #0f1519;
+    background-color: #1c1c31;
     margin: -10px;
 }
 
@@ -14,7 +14,7 @@ body{
 h1{
     /* Heading CSS */
     font-family: 'Roboto Slab', serif;
-    background: -webkit-linear-gradient(#608060,#ffcc66);
+    background: -webkit-linear-gradient(#f7b801,#ed9200);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* color: #f7b801; */
@@ -27,7 +27,7 @@ h1{
 h2{
     /* Heading CSS */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffcc66;
+    color: #ba9aff;
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
@@ -38,7 +38,7 @@ h2{
 h3{
     /* Heading font for CSS */
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffcc66;
+    color: #f7b801;
     font-size: 30px;
     text-align:right;
     margin: 30px;
@@ -98,7 +98,7 @@ p{
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     justify-content: center; 
-    background-image: linear-gradient(to right, #273427 0%, #394c39 100%);
+    background-image: linear-gradient(to right, #3d348b 0%, #2b2564 100%);
 }
 
 .Bbuttons:hover{
@@ -115,7 +115,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: -15px;
-    background-color: #131b21;
+    background-color: #121220;
 
 }
 footer{
@@ -124,11 +124,11 @@ footer{
     margin: -20px;
     padding: 20px;
     font-family: 'Barlow', sans-serif;
-    background-color: #000000;
+    background-color: #121220;
 }
 
 li,a {
-    color: #7ca87c;
+    color: #b9b5ff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:600;
     font-size: 130%;
@@ -139,8 +139,8 @@ li,a {
     display: inline-block;
     padding: 10px;
     margin: 10px;
-    border: 3px  #dba63c;
-    border-style:solid;
+    border: 3px  #6c5cff;
+    border-style: dashed solid;
 }
 .navLinks li a{
     padding: 20px;
@@ -165,5 +165,5 @@ li,a {
     height: 0px;
     }
 ::-webkit-scrollbar-track {
-background: #0f1519;
+background: #22223b;
 }
