@@ -1,23 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
 .relative {
     padding: 10px;
     position: relative;
-    background-color: #1c1c31;
+    background-color: #fffeff;
     margin: -10px;
+
 }
 
 body{
     -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  
+    scrollbar-width: none; 
 }
 
 
 h1{
     /* Heading CSS */
     font-family: 'Roboto Slab', serif;
-    background: -webkit-linear-gradient(#f7b801,#ed9200);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* color: #f7b801; */
+    color: #195bbc;
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
@@ -27,28 +28,27 @@ h1{
 h2{
     /* Heading CSS */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ba9aff;
+    color: #212225;
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    text-shadow: 3px 3px 3px #0e0e18;
+    /* text-shadow: 3px 3px 3px #0e0e18; */
 }
 
 h3{
     /* Heading font for CSS */
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f7b801;
+    color: #212225;
     font-size: 30px;
     text-align:right;
     margin: 30px;
-    text-shadow: 3px 3px 3px #0e0e18;
 }
 
 h4{
     /* Heading CSS */
     font-family: 'Exo', sans-serif;
-    color: #ffffff;
+    color: #212225;
     font-size: 15px;
     text-align: center;
     margin-top: 15px;
@@ -60,7 +60,7 @@ h4{
 h5{
     /* Heading CSS */
     font-family: 'Nunito', sans-serif;
-    color: #f0f0f0;
+    color: #212225;
     font-size: 13px;
     text-align: center;
     margin-top: 15px;
@@ -81,32 +81,29 @@ p{
 .Bbuttons {
     display: inline-block;
     width: 300px;
-    height: 70px; 
+    height: 70px;
     padding: 16px 32px;
     margin: 10px 7px;
     text-align: center;
-    color: #ffffff;
     cursor:pointer;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Karla', sans-serif;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: none;
-    border-color: #edf2f4;
-    border-radius: 5px;
+    border-color: #000000;
+    /* border-radius: 5px; */
     text-decoration: none;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     justify-content: center; 
-    background-image: linear-gradient(to right, #3d348b 0%, #2b2564 100%);
+    color: #212225;
 }
 
 .Bbuttons:hover{
-    background-image: linear-gradient(to right, #f7b801 0%, #00ebd8 100%);
-    color: rgb(126, 126, 126);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    color: #ffffff;
+    background-image: linear-gradient(to right, #212225 0%, #212225 100%);
     border-radius: 50px;
-    border-color: #ffd70c;
 }
 
 
@@ -115,23 +112,24 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: -15px;
-    background-color: #121220;
+    background-color: #ffffff;
 
 }
 footer{
 
     color: #f0f0f0;
     margin: -20px;
-    padding: 20px;
+    padding: 50px;
+    font-size: 18px;
     font-family: 'Barlow', sans-serif;
-    background-color: #121220;
+    background-color: #212225;
 }
 
 li,a {
-    color: #b9b5ff;
+    color: #d27866;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:600;
-    font-size: 130%;
+    font-size: 28px;
     text-decoration: none;
 }
 .navLinks li{
@@ -139,31 +137,26 @@ li,a {
     display: inline-block;
     padding: 10px;
     margin: 10px;
-    border: 3px  #6c5cff;
-    border-style: dashed solid;
+    border: 3px  #212225;
+    border-style:solid;
 }
 .navLinks li a{
     padding: 20px;
     transition: all 0.3s ease 0s;
 }
 .navLinks li a:hover{
-    /* color: #ffd70c; */
-    background: -webkit-linear-gradient(#fbff05, #3effef);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+    color: #e0573c;
 }
 .navLinks li:hover{
-    border: 3px  #ffd70c;
+    border: 3px  #212225;
     /* color: -webkit-linear-gradient(#fbff05, #3effef); */
     border-style: solid;
 }
 
-
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
-    }
+} 
 ::-webkit-scrollbar-track {
-background: #22223b;
+    background: #0f1519;
 }
