@@ -4,7 +4,7 @@ html{
 .relative {
     padding: 10px;
     position: relative;
-    background-color: #fffeff;
+    background-color: #111111;
     margin: -10px;
 
 }
@@ -18,7 +18,7 @@ body{
 h1{
     /* Heading CSS */
     font-family: 'Roboto Slab', serif;
-    color: #195bbc;
+    color: #ffffff;
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
@@ -28,7 +28,7 @@ h1{
 h2{
     /* Heading CSS */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #212225;
+    color: #eeeeee;
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
@@ -39,16 +39,17 @@ h2{
 h3{
     /* Heading font for CSS */
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #212225;
+    color: #eeeeee;
     font-size: 30px;
     text-align:right;
-    margin: 30px;
+    margin: 20px;
+    padding: 0px;
 }
 
 h4{
     /* Heading CSS */
     font-family: 'Exo', sans-serif;
-    color: #212225;
+    color: #eeeeee;
     font-size: 15px;
     text-align: center;
     margin-top: 15px;
@@ -60,8 +61,8 @@ h4{
 h5{
     /* Heading CSS */
     font-family: 'Nunito', sans-serif;
-    color: #212225;
-    font-size: 13px;
+    color: #eeeeee;
+    font-size: 8px;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -89,20 +90,21 @@ p{
     font-size: 25px;
     font-weight: bold;
     font-family: 'Karla', sans-serif;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: none;
-    border-color: #000000;
-    /* border-radius: 5px; */
+    border: solid;
+    background-color: #292929;
+    border-color: #eeeeee;
+    border-radius: 5px;
     text-decoration: none;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     justify-content: center; 
-    color: #212225;
+    color: #eeeeee;
 }
 
 .Bbuttons:hover{
-    color: #ffffff;
-    background-image: linear-gradient(to right, #212225 0%, #212225 100%);
+    color: #111111;
+    border-color: #5d5d5d;
+    background-image: linear-gradient(to right, #eeeeee 0%, #eeeeee 100%);
     border-radius: 50px;
 }
 
@@ -112,9 +114,37 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: -15px;
-    background-color: #ffffff;
+    background-color: #000000;
 
 }
+
+li,a {
+    color: #eeeeee;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+    font-size: 25px;
+    text-decoration: none;
+}
+.navLinks li{
+    list-style:none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 3px  #eeeeee;
+    border-style:dashed;
+}
+.navLinks li a{
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover{
+    color: #111111;
+}
+.navLinks li:hover{
+    background-color: #eeeeee;
+    border-style: solid;
+}
+
 footer{
 
     color: #f0f0f0;
@@ -122,35 +152,7 @@ footer{
     padding: 50px;
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
-    background-color: #212225;
-}
-
-li,a {
-    color: #d27866;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight:600;
-    font-size: 28px;
-    text-decoration: none;
-}
-.navLinks li{
-    list-style:none;
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-    border: 3px  #212225;
-    border-style:solid;
-}
-.navLinks li a{
-    padding: 20px;
-    transition: all 0.3s ease 0s;
-}
-.navLinks li a:hover{
-    color: #e0573c;
-}
-.navLinks li:hover{
-    border: 3px  #212225;
-    /* color: -webkit-linear-gradient(#fbff05, #3effef); */
-    border-style: solid;
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar {
