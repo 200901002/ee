@@ -6,4 +6,5 @@ window.addEventListener("scroll", () => {
   } else {
     toTop.classList.remove("active");
   }
+  
 })
