@@ -18,7 +18,7 @@ body{
 h1{
     /* Heading CSS */
     font-family: 'Roboto Slab', serif;
-    color: #ffffff;
+    color: #2fc2fd;
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
@@ -28,7 +28,7 @@ h1{
 h2{
     /* Heading CSS */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #eeeeee;
+    color: #fafafa;
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
