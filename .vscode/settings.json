@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "xd.globalEditor": false,
+    "xd.lastPackage": "/E:/College/Others/Mics/EEServerWeb/BackupEEServer/node_modules/dracula-ui/dsp"
 }
