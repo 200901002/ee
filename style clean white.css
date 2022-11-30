@@ -171,3 +171,9 @@ a.discord{
     font-size: 20px;
     color: #90a6ef;
 }
+a.grad{
+    font-size: 50px;
+    background: linear-gradient(to right, #ffffff 0%, #90a6ef 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
