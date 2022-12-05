@@ -112,6 +112,38 @@ p{
     border-radius: 50px;
 }
 
+.BbuttonsGrad {
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    padding: 16px 32px;
+    margin: 10px 7px;
+    text-align: center;
+    cursor:pointer;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    border: solid;
+    background-image: linear-gradient(to right, #0F2027 0%, #2C5364 100%);
+    border-color: #eeeeee;
+    border-radius: 5px;
+    border-style: dashed;
+    text-decoration: none;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    justify-content: center; 
+    color: #eeeeee;
+    text-shadow: 0.7px 0.7px 0.7px #3a3a68;
+}
+
+.BbuttonsGrad:hover{
+    color: #ffffff;
+    border-color: #5d5d5d;
+    background-image: none;
+    background-color: #90a6ef;
+    border-radius: 50px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
